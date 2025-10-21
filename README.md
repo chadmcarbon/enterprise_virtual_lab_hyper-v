@@ -44,27 +44,21 @@ This project simulates a real-world enterprise network using virtualization in *
 ✅ Virtual switches created  
 ✅ pfSense installed and configured (WAN + LAN)  
 ✅ Internal LAN operational (10.0.1.0/24)  
-✅ Windows Server 2022 installed and statically configured  
+✅ Windows Server 2022 installed and statically configured
+✅ Domain Services (AD DS) successfully installed
+✅ Active Directory Forest created
+✅ DHCP and DNS Roles configured
+✅ Created Department OUs 
+
 
 ---
 
-## Immediate Next Steps
+## Immediate Next Steps 
 
-1. **Promote DC01 to enterprise.local**  
-   - Establish the Active Directory forest and define the internal namespace.  
-
-2. **Add DNS and DHCP Roles**  
-   - Provide centralized name resolution and IP assignment across the network.  
-   - Configure DHCP scope: `10.0.1.50 – 10.0.1.200`.  
-
-3. **Create Organizational Units (Departments & Roles)**  
-   - Structure: Finance, HR, Sales, Operations, IT.  
-   - Enables granular Group Policy targeting and easier user management.  
-
-4. **Create Security Groups Using AGDLP**  
+1. **Create Security Groups Using AGDLP**  
    - Implement access layering with Global Groups (GG-Users) and Domain Local Groups (DLG-Modify/Read).  
    - Mimics real-world enterprise permissions structure.  
 
-5. **Bulk-Create Users and Service Accounts via PowerShell**  
+2. **Bulk-Create Users and Service Accounts via PowerShell**  
    - Automate user provisioning using CSV input and PowerShell scripting.  
    - Reinforces automation and administrative best practices.  
