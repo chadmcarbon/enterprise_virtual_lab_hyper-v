@@ -79,6 +79,7 @@ It replicates a typical enterprise setup with perimeter security, centralized id
 
 1. **Bulk-Create Users and Service Accounts via PowerShell**  
    - Automate user provisioning using CSV and PowerShell scripting.  
-   - Reinforces automation and real-world administrative practices.  
+   - Reinforces automation and real-world administrative practices.
+ 
 
 ---
