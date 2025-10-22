@@ -25,7 +25,7 @@ It replicates a typical enterprise setup with perimeter security, centralized id
 - Network segmentation between external and internal networks.  
 - `External` connects pfSense WAN to the Internet.  
 - `Internal` connects all internal VMs securely.  
-![Virtual Switches Configuration](Images/hyper-v-virtual_switches.png)
+![Virtual Switches Configuration](Images/hyper-v-virtual-switches.png)
 
 ### pfSense Firewall (FW01)
 - Firewall/Router  
