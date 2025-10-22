@@ -49,6 +49,7 @@ This project simulates a real-world enterprise network using virtualization in *
 ✅ Active Directory Forest created
 ✅ DHCP and DNS Roles configured
 ✅ Created Department OUs 
+✅ Global Groups for specific OUs created
 
 
 ---
