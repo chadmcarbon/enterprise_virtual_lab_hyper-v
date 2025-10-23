@@ -66,7 +66,6 @@ It replicates a typical enterprise setup with perimeter security, centralized id
 ![Configure DHCP Server](Images/dhcp-server.png)
 ![Configure DHCP Options](Images/configure-dhcp.png)
 ![Server Login Screen](Images/server-screen-login.png)
-![Create Active Directory OU ](Images/created-ous.png)
 ![Create Active Directory OU GG ](Images/ad-gg-1.png)
 ![Create Active Directory OU DLG](Images/created-dlgs.png)
 
