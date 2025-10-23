@@ -17,7 +17,6 @@ It replicates a typical enterprise setup with perimeter security, centralized id
 ## 
 
 ### Hyper-V Manager
-![Name of Physical PC with Hyper-V](Images/name-of-pc-with-hyper-v.png)
 ![Hyper-V Manager](Images/hyper-v-created-vms.png)
 
 
@@ -31,13 +30,11 @@ It replicates a typical enterprise setup with perimeter security, centralized id
 - Firewall/Router  
 - Handles NAT, routing, and perimeter security between external and internal networks.  
 ![pfSense FW01 Status 1](Images/fw01-status-1.png) 
-![pfSense Fw01 Status 2](Images/fw01-status-2.png)
 
 ### Windows Server 2022 (DC01)
 - Domain Controller  
 - Hosts **Active Directory**, **DNS**, and **DHCP**.  
 - Provides centralized identity services for the lab.  
-![DC01 Image](Images/hyper-v-dc01.png)
 ![DC01 Hardware Settings](Images/dc01-hyper-v-hardware-settings.png)
 
 ---
