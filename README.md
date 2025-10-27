@@ -23,6 +23,19 @@ The entire identity and permissions structure has been deployed and populated us
 ### Organizational Unit (OU) Hierarchy
 The OUs are structured for **Group Policy (GPO)** targeting and **administrative delegation**.
 
+enterprise.local
+├── Employees (OU)          <– GPO Target for All User Policies (Screen lock, etc.)
+│   ├── Finance (OU)        <– Contains: Finance Users & GG-Finance-Users
+│   ├── HR (OU)             <– Contains: HR Users & GG-HR-Users
+│   ├── Sales (OU)
+│   ├── Operations (OU)
+│   ├── IT (OU)
+│   └── Remote (OU)
+│
+├── Workstations (OU)       <– GPO Target for Client Machines (BitLocker, Wallpaper)
+├── Servers (OU)            <– GPO Target for Server Security Baselines (FS01, WSUS01)
+└── Service Accounts (OU)   <– Container for Non-Human Identities (svc-backup, svc-adconnect)
+
 ---
 
 ### 🔐 Access Control Model (AGDLP Implementation)
