@@ -23,6 +23,7 @@ The entire identity and permissions structure has been deployed and populated us
 ### Organizational Unit (OU) Hierarchy
 The OUs are structured for **Group Policy (GPO)** targeting and **administrative delegation**.
 
+```text
 enterprise.local
 ├── Employees (OU)          <– GPO Target for All User Policies (Screen lock, etc.)
 │   ├── Finance (OU)        <– Contains: Finance Users & GG-Finance-Users
