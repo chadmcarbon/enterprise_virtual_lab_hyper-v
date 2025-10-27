@@ -86,8 +86,6 @@ Resource (P)
 - Hosts **Active Directory**, **DNS**, and **DHCP**.  
 - Provides centralized identity services for the lab.  
 ![DC01 Hardware Settings](Images/dc01-hyper-v-hardware-settings.png)
-
-
 ![Configure DNS Name/Server](Images/set-dns.png)
 ![Configure DNS Exclusion](Images/dns-exclusion.png)
 ![Configure DHCP Server](Images/dhcp-server.png)
@@ -96,12 +94,4 @@ Resource (P)
 ![Create Active Directory OU GG ](Images/ad-gg-1.png)
 ![Create Active Directory OU DLG](Images/created-dlgs.png)
 
----
-
-## Immediate Next Steps
-
-1. **Bulk-Create Users and Service Accounts via PowerShell**  
-   - Automate user provisioning using CSV and PowerShell scripting.  
-   - Reinforces automation and real-world administrative practices.
- 
 ---
